@@ -2,10 +2,11 @@
 /* iteracje */
 //	PÊTLA WHILE - PRZYK£AD 2
 using namespace std;
+int suma = 0;
+int zakres;
+int i = 1;
 int main() {
-    int suma = 0;
-    int zakres;
-    int i = 1;
+
     cout << "Podaj zakres: ";
     cin >> zakres;
     while (i <= zakres) {
